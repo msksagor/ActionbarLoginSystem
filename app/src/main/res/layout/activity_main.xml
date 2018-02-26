@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fondn.actionbarsetup.MainActivity">
+
+    <EditText
+        android:id="@+id/edittextNameId"
+        android:drawableLeft="@drawable/ic_accessibility_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ <EditText
+        android:id="@+id/passwordId"
+        android:drawableLeft="@drawable/ic_accessibility_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="You have only 3 times...."
+        android:textColor="#000"
+        android:id="@+id/msgTextID"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnID"
+
+        android:text="Log-IN"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+</LinearLayout>
